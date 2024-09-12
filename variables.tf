@@ -11,4 +11,4 @@ variable "cidr_block" {
 variable "region" {
   type        = string
   description = "Region AWS"
-}
+} 

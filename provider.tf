@@ -9,7 +9,7 @@ terraform {
     bucket = "s3-erik-tf"
     key    = "autoscaling-app/terraform.tfstate"
     region = "us-east-1"
-  }  
+  }
 }
 
 provider "aws" {

@@ -19,5 +19,5 @@ output "private_route_table_id" {
 }
 
 output "route_table_association_ids" {
-  value = [ for k, v in aws_route_table_association.pant_rtb_assoc : v.id ]
+  value = [for k, v in aws_route_table_association.pant_rtb_assoc : v.id]
 }
